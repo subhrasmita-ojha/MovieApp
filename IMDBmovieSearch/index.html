@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MovieInfo | Search Movies</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="index.html" class="navbar-brand">MovieInfo</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="jumbotron  mx-auto py-4" style="max-width: 900px;">
+      <div class="text-center">
+        <h3>Search Any Movie</h3>
+        <form id="searchForm">
+          <input class="form-control form-control-lg" type="text" placeholder="Search movies..." id="searchText">
+          <button class="btn btn-lg btn-primary mt-2">Search</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div id="movieList" class="row no-gutters"></div>
+  </div>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

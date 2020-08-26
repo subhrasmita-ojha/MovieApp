@@ -1,0 +1,24 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#movieList img, #movie img {
+  width: 100%;
+}
+
+#movieList .col-md-4 .card {
+  height: 480px;
+  margin: 10px 10px;
+}
+
+#movieList .col-md-4 img {
+  height: 330px;
+}
